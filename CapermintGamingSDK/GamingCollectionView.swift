@@ -10,7 +10,7 @@ import UIKit
 
 public class GamingCollectionView: UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-    private var aryImages : [UIImage] = [#imageLiteral(resourceName: "Hyper Hockey"), #imageLiteral(resourceName: "Tic Tac Toe"), #imageLiteral(resourceName: "marvel bird"), #imageLiteral(resourceName: "dart"), #imageLiteral(resourceName: "disk rush")]
+    private var aryImages : [UIImage] = [UIImage(named: "Hyper Hockey")!, UIImage(named: "Tic Tac Toe")!, UIImage(named: "marvel bird")!, UIImage(named: "disk rush")!, ]
     private var aryGameNames : [String] = ["Hyper Hockey", "Tic Tac Toe", "Marvel Bird", "Darts", "Disk Rush"]
     private var redirectionURLs : [String] = ["http://staging-server.in/HTML_Games_Tijara/hyper-hockey/",
          "http://staging-server.in/HTML_Games_Tijara/tic-tac-toe/",
