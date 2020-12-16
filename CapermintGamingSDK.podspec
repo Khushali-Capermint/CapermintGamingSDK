@@ -88,8 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{swift}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "CapermintGamingSDK/**/*.{swift}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -100,7 +99,6 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
-
+  # spec.resources = "CapermintGamingSDK/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  # spec.swift_version = "5.0"
 end
