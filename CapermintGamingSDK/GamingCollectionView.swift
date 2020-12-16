@@ -10,7 +10,8 @@ import UIKit
 
 public class GamingCollectionView: UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-    private var aryImages : [UIImage] = [UIImage(named: "Hyper Hockey")!, UIImage(named: "Tic Tac Toe")!, UIImage(named: "marvel bird")!, UIImage(named: "disk rush")!, ]
+    private var aryImages : [UIImage] = [bundledImage(named: "Hyper Hockey"), bundledImage(named: "Tic Tac Toe"), bundledImage(named: "marvel bird"),
+        bundledImage(named: "dart"), bundledImage(named: "disk rush") ]
     private var aryGameNames : [String] = ["Hyper Hockey", "Tic Tac Toe", "Marvel Bird", "Darts", "Disk Rush"]
     private var redirectionURLs : [String] = ["http://staging-server.in/HTML_Games_Tijara/hyper-hockey/",
          "http://staging-server.in/HTML_Games_Tijara/tic-tac-toe/",
@@ -70,4 +71,12 @@ public class GamingCollectionView: UICollectionView, UICollectionViewDelegate, U
             handler(self.redirectionURLs[indexPath.row])
         }
     }
+}
+
+func bundledImage(named: String) -> UIImage {
+    let image = UIImage(named: named)
+    if image == nil {
+        return UIImage(named: named, in: Bundle(for: CapermintGamingSDK.classForCoder()), compatibleWith: nil)!
+    } // Replace MyBasePodClass with yours
+    return UIImage()
 }
