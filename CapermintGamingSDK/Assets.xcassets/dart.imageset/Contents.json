@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "1024x1024.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "disk rush empire.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

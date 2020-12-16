@@ -20,8 +20,6 @@
 		B9578BC2258A05A800557C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9578BC0258A05A800557C0E /* Main.storyboard */; };
 		B9578BC4258A05AB00557C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9578BC3258A05AB00557C0E /* Assets.xcassets */; };
 		B9578BC7258A05AB00557C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9578BC5258A05AB00557C0E /* LaunchScreen.storyboard */; };
-		B9578BF4258A074900557C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578BF3258A074900557C0E /* AppDelegate.swift */; };
-		B9578BFA258A079200557C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9578BF8258A079200557C0E /* LaunchScreen.storyboard */; };
 		B9578BFB258A079200557C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9578BF9258A079200557C0E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +52,6 @@
 		B9578BC3258A05AB00557C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9578BC6258A05AB00557C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9578BC8258A05AB00557C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9578BF3258A074900557C0E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9578BF8258A079200557C0E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9578BF9258A079200557C0E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,9 +104,7 @@
 		B9578B7F2589E82C00557C0E /* CapermintGamingSDK */ = {
 			isa = PBXGroup;
 			children = (
-				B9578BF8258A079200557C0E /* LaunchScreen.storyboard */,
 				B9578BF9258A079200557C0E /* Main.storyboard */,
-				B9578BF3258A074900557C0E /* AppDelegate.swift */,
 				B9578B8E2589E90D00557C0E /* Assets.xcassets */,
 				B9578B932589E90D00557C0E /* CapermintGamingSDK.swift */,
 				B9578B942589E90D00557C0E /* WebViewViewController.swift */,
@@ -257,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9578BFB258A079200557C0E /* Main.storyboard in Resources */,
-				B9578BFA258A079200557C0E /* LaunchScreen.storyboard in Resources */,
 				B9578B972589E90E00557C0E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +282,6 @@
 				B9578B982589E90E00557C0E /* GamingCollectionView.swift in Sources */,
 				B9578B9A2589E90E00557C0E /* CapermintGamingSDK.swift in Sources */,
 				B9578B9B2589E90E00557C0E /* WebViewViewController.swift in Sources */,
-				B9578BF4258A074900557C0E /* AppDelegate.swift in Sources */,
 				B9578B992589E90E00557C0E /* GamingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

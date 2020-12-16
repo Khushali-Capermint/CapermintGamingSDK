@@ -10,9 +10,13 @@ import UIKit
 
 public class GamingCollectionView: UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-    private var aryImages : [UIImage] = [#imageLiteral(resourceName: "disk rush empire"), #imageLiteral(resourceName: "Fruit Boom"), #imageLiteral(resourceName: "Hyper Hockey Empire"), #imageLiteral(resourceName: "New Tic Tac Toe"), #imageLiteral(resourceName: "Slide Empire")]
-    private var aryGameNames : [String] = ["Disk Rush Empire", "Fruit Boom", "Hyper Hockey Empire", "New Tic Tac Toe", "Slide Empire"]
-    private var redirectionURLs : [String] = ["http://15.206.236.166/staging/games/disk_rush_empire/","http://15.206.236.166/staging/games/fruit_boom_empire/","http://15.206.236.166/staging/games/hyper_hockey_empire","http://15.206.236.166/staging/games/tic_tac_toe_empire/","http://15.206.236.166/staging/games/slide_empire/"]
+    private var aryImages : [UIImage] = [#imageLiteral(resourceName: "Hyper Hockey"), #imageLiteral(resourceName: "Tic Tac Toe"), #imageLiteral(resourceName: "marvel bird"), #imageLiteral(resourceName: "dart"), #imageLiteral(resourceName: "disk rush")]
+    private var aryGameNames : [String] = ["Hyper Hockey", "Tic Tac Toe", "Marvel Bird", "Darts", "Disk Rush"]
+    private var redirectionURLs : [String] = ["http://staging-server.in/HTML_Games_Tijara/hyper-hockey/",
+         "http://staging-server.in/HTML_Games_Tijara/tic-tac-toe/",
+         "http://staging-server.in/HTML_Games_Tijara/marvel-bird/",
+         "http://staging-server.in/HTML_Games_Tijara/darts/",
+         "http://staging-server.in/HTML_Games_Tijara/disk-rush/"]
     
     private var didSelectBlock:((String)->Void)?
     
