@@ -12,11 +12,12 @@ Gaming SDK integration library for different games integrated and useable to all
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Khushali Nimje" => "khushali@caperminttechnologies.com" }
 
-  spec.ios.deployment_target = "12.0"
+  spec.ios.deployment_target = "14.0"
   spec.swift_version = "5.0"
 
   spec.source        = { :git => "https://github.com/Khushali-Capermint/CapermintGamingSDK.git", :tag => "#{spec.version}" }
   spec.source_files  = "CapermintGamingSDK/**/*.{swift}"
-  spec.resources = "CapermintGamingSDK/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  spec.resource_bundles = {
+    'CapermintGamingSDK' => ['CapermintGamingSDK/**/*.{xib,storyboard,xcassets}'] }
 end
 
