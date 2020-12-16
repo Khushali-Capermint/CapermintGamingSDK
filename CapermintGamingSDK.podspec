@@ -16,7 +16,7 @@ This CocoaPods library ia for gaming SDK integration.
   spec.swift_version = "5.0"
 
   spec.source        = { :git => "https://github.com/Khushali-Capermint/CapermintGamingSDK.git", :tag => "0.0.1" }
-  spec.source_files  = "CapermintGamingSDK/**/*.{h,m,swift}"
+  spec.source_files  = "CapermintGamingSDK/**/*.{swift}"
 
 end
 
