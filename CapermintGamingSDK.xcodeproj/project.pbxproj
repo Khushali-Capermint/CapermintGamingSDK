@@ -13,7 +13,7 @@
 		B9578B972589E90E00557C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9578B8E2589E90D00557C0E /* Assets.xcassets */; };
 		B9578B982589E90E00557C0E /* GamingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578B902589E90D00557C0E /* GamingCollectionView.swift */; };
 		B9578B992589E90E00557C0E /* GamingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578B912589E90D00557C0E /* GamingCollectionViewCell.swift */; };
-		B9578B9A2589E90E00557C0E /* CapermintGamingSDKController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578B932589E90D00557C0E /* CapermintGamingSDKController.swift */; };
+		B9578B9A2589E90E00557C0E /* CapermintGamingSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578B932589E90D00557C0E /* CapermintGamingSDK.swift */; };
 		B9578B9B2589E90E00557C0E /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578B942589E90D00557C0E /* WebViewViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		B9578B8E2589E90D00557C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9578B902589E90D00557C0E /* GamingCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamingCollectionView.swift; sourceTree = "<group>"; };
 		B9578B912589E90D00557C0E /* GamingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamingCollectionViewCell.swift; sourceTree = "<group>"; };
-		B9578B932589E90D00557C0E /* CapermintGamingSDKController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapermintGamingSDKController.swift; sourceTree = "<group>"; };
+		B9578B932589E90D00557C0E /* CapermintGamingSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapermintGamingSDK.swift; sourceTree = "<group>"; };
 		B9578B942589E90D00557C0E /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,40 +61,16 @@
 			isa = PBXGroup;
 			children = (
 				B9578B8E2589E90D00557C0E /* Assets.xcassets */,
-				B9578B8F2589E90D00557C0E /* CustomViews */,
-				B9578B892589E90D00557C0E /* Storyboard */,
-				B9578B922589E90D00557C0E /* ViewController */,
+				B9578B932589E90D00557C0E /* CapermintGamingSDK.swift */,
+				B9578B942589E90D00557C0E /* WebViewViewController.swift */,
+				B9578B902589E90D00557C0E /* GamingCollectionView.swift */,
+				B9578B912589E90D00557C0E /* GamingCollectionViewCell.swift */,
+				B9578B8A2589E90D00557C0E /* LaunchScreen.storyboard */,
+				B9578B8C2589E90D00557C0E /* Main.storyboard */,
 				B9578B802589E82C00557C0E /* CapermintGamingSDK.h */,
 				B9578B812589E82C00557C0E /* Info.plist */,
 			);
 			path = CapermintGamingSDK;
-			sourceTree = "<group>";
-		};
-		B9578B892589E90D00557C0E /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				B9578B8A2589E90D00557C0E /* LaunchScreen.storyboard */,
-				B9578B8C2589E90D00557C0E /* Main.storyboard */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		B9578B8F2589E90D00557C0E /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-				B9578B902589E90D00557C0E /* GamingCollectionView.swift */,
-				B9578B912589E90D00557C0E /* GamingCollectionViewCell.swift */,
-			);
-			path = CustomViews;
-			sourceTree = "<group>";
-		};
-		B9578B922589E90D00557C0E /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B9578B932589E90D00557C0E /* CapermintGamingSDKController.swift */,
-				B9578B942589E90D00557C0E /* WebViewViewController.swift */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9578B982589E90E00557C0E /* GamingCollectionView.swift in Sources */,
-				B9578B9A2589E90E00557C0E /* CapermintGamingSDKController.swift in Sources */,
+				B9578B9A2589E90E00557C0E /* CapermintGamingSDK.swift in Sources */,
 				B9578B9B2589E90E00557C0E /* WebViewViewController.swift in Sources */,
 				B9578B992589E90E00557C0E /* GamingCollectionViewCell.swift in Sources */,
 			);
