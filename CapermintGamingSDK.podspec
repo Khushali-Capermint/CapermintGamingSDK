@@ -17,6 +17,6 @@ Gaming SDK integration library for different games integrated and useable to all
 
   spec.source        = { :git => "https://github.com/Khushali-Capermint/CapermintGamingSDK.git", :tag => "#{spec.version}" }
   spec.source_files  = "CapermintGamingSDK/**/*.{swift}"
-  spec.resources = "CapermintGamingSDK/**/*.{xcassets,png}"
+  spec.resources = "CapermintGamingSDK/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 end
 
