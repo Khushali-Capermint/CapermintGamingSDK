@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-public class WebViewViewController: UIViewController {
+open class WebViewViewController: UIViewController {
     
     @IBOutlet weak var navigationBar: UINavigationBar!
     @IBOutlet weak var webView: WKWebView!

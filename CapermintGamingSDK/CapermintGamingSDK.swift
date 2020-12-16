@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class CapermintGamingSDK: UIViewController {
+open class CapermintGamingSDK: UIViewController {
 
     @IBOutlet weak var collectionGaming : GamingCollectionView!
     

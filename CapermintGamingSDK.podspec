@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "A CocoaPods library written in Swift for gaming SDK"
 
   spec.description  = <<-DESC
-This CocoaPods library for gaming SDK integration.
+Gaming SDK integration library for different games integrated and useable to all users.
                    DESC
 
   spec.homepage     = "https://github.com/Khushali-Capermint/CapermintGamingSDK"
