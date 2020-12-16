@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "A CocoaPods library written in Swift for gaming SDK"
 
   spec.description  = <<-DESC
-This CocoaPods library ia for gaming SDK integration.
+This CocoaPods library for gaming SDK integration.
                    DESC
 
   spec.homepage     = "https://github.com/Khushali-Capermint/CapermintGamingSDK"
@@ -15,7 +15,7 @@ This CocoaPods library ia for gaming SDK integration.
   spec.ios.deployment_target = "12.0"
   spec.swift_version = "5.0"
 
-  spec.source        = { :git => "https://github.com/Khushali-Capermint/CapermintGamingSDK.git", :tag => "0.0.1" }
+  spec.source        = { :git => "https://github.com/Khushali-Capermint/CapermintGamingSDK.git", :tag => "#{spec.version}" }
   spec.source_files  = "CapermintGamingSDK/**/*.{swift}"
 
 end
