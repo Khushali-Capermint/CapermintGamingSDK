@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CapermintGamingSDK"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "A CocoaPods library written in Swift for gaming SDK"
 
   spec.description  = <<-DESC
