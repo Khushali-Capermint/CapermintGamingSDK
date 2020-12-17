@@ -12,7 +12,6 @@
 		B9578B982589E90E00557C0E /* GamingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578B902589E90D00557C0E /* GamingCollectionView.swift */; };
 		B9578B992589E90E00557C0E /* GamingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578B912589E90D00557C0E /* GamingCollectionViewCell.swift */; };
 		B9578B9A2589E90E00557C0E /* CapermintGamingSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578B932589E90D00557C0E /* CapermintGamingSDK.swift */; };
-		B9578B9B2589E90E00557C0E /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578B942589E90D00557C0E /* WebViewViewController.swift */; };
 		B9578BAA258A054B00557C0E /* CapermintGamingSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578BA9258A054B00557C0E /* CapermintGamingSDKTests.swift */; };
 		B9578BAC258A054B00557C0E /* CapermintGamingSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9578B7D2589E82C00557C0E /* CapermintGamingSDK.framework */; };
 		B9578BBB258A05A800557C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9578BBA258A05A800557C0E /* AppDelegate.swift */; };
@@ -21,6 +20,7 @@
 		B9578BC4258A05AB00557C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9578BC3258A05AB00557C0E /* Assets.xcassets */; };
 		B9578BC7258A05AB00557C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9578BC5258A05AB00557C0E /* LaunchScreen.storyboard */; };
 		B9578BFB258A079200557C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9578BF9258A079200557C0E /* Main.storyboard */; };
+		B95DA936258B26A300372ECE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95DA935258B26A300372ECE /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		B9578B902589E90D00557C0E /* GamingCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamingCollectionView.swift; sourceTree = "<group>"; };
 		B9578B912589E90D00557C0E /* GamingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamingCollectionViewCell.swift; sourceTree = "<group>"; };
 		B9578B932589E90D00557C0E /* CapermintGamingSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapermintGamingSDK.swift; sourceTree = "<group>"; };
-		B9578B942589E90D00557C0E /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		B9578BA7258A054B00557C0E /* CapermintGamingSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapermintGamingSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9578BA9258A054B00557C0E /* CapermintGamingSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapermintGamingSDKTests.swift; sourceTree = "<group>"; };
 		B9578BAB258A054B00557C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		B9578BC6258A05AB00557C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9578BC8258A05AB00557C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9578BF9258A079200557C0E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B95DA935258B26A300372ECE /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../../CapermintGamingSDK1/CapermintGamingSDK/WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +107,11 @@
 				B9578BF9258A079200557C0E /* Main.storyboard */,
 				B9578B8E2589E90D00557C0E /* Assets.xcassets */,
 				B9578B932589E90D00557C0E /* CapermintGamingSDK.swift */,
-				B9578B942589E90D00557C0E /* WebViewViewController.swift */,
 				B9578B902589E90D00557C0E /* GamingCollectionView.swift */,
 				B9578B912589E90D00557C0E /* GamingCollectionViewCell.swift */,
 				B9578B802589E82C00557C0E /* CapermintGamingSDK.h */,
 				B9578B812589E82C00557C0E /* Info.plist */,
+				B95DA935258B26A300372ECE /* WebViewController.swift */,
 			);
 			path = CapermintGamingSDK;
 			sourceTree = "<group>";
@@ -281,8 +281,8 @@
 			files = (
 				B9578B982589E90E00557C0E /* GamingCollectionView.swift in Sources */,
 				B9578B9A2589E90E00557C0E /* CapermintGamingSDK.swift in Sources */,
-				B9578B9B2589E90E00557C0E /* WebViewViewController.swift in Sources */,
 				B9578B992589E90E00557C0E /* GamingCollectionViewCell.swift in Sources */,
+				B95DA936258B26A300372ECE /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
