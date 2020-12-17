@@ -77,7 +77,7 @@ class GamingCollectionView: UICollectionView, UICollectionViewDelegate, UICollec
 func bundledImage(named: String) -> UIImage {
     let image = UIImage(named: named)
     if image == nil {
-        return UIImage(named: named, in: Bundle(for: CapermintGamingSDKController.classForCoder()), compatibleWith: nil)!
+        return UIImage(named: named, in: Bundle(for: CapermintGamingSDK.classForCoder()), compatibleWith: nil)!
     }
     return image!
 }
