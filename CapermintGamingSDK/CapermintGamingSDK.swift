@@ -34,11 +34,9 @@ open class CapermintGamingSDK: UIViewController {
         self.collectionGaming.setUpDidSelectBlock { [weak self] (url) in
             guard let self = `self` else {return}
             
-            if let vc = self.storyboard?.instantiateViewController(withIdentifier: "WebViewController") as? WebViewController {
-                vc.url = url
-                
-                self.navigationController?.pushViewController(vc, animated: true)
-            }
+            let vc = WebViewController(nibName: "WebViewController", bundle: Bundle(for: CapermintGamingSDK.classForCoder()))
+            vc.url = url
+            self.navigationController?.pushViewController(vc, animated: true)
         }
     }
 
